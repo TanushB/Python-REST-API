@@ -6,7 +6,7 @@ api = Api(app)
 
 class androidApi(Resource):
     def get(self):
-        return {"Tanush":"IsGay"}
+        return {"Dhruv":"IsGay"}
 
 api.add_resource(androidApi, '/')
 
